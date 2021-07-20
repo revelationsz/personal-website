@@ -1,0 +1,14 @@
+.fullcode{
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    margin: 51px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 12px;
+}
+
+.test{
+    justify-self: center;
+}

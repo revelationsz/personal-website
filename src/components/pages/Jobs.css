@@ -1,0 +1,31 @@
+.whole_page{
+    align-items: center;
+    text-align: center;
+    margin: 50px
+}
+
+.resume{
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 50px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+   
+    
+}
+
+.obj {
+    width: auto;
+    height: 100%;
+    padding: 13px;
+    box-shadow: 0 6px 20px #9f38ff2b; 
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(2, 4, 8, 0.017));
+}
+
+@media screen and (min-width: 1100px){
+    .resume{
+        margin-left: 24%;
+        margin-right: 24%
+    }
+}
