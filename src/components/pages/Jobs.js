@@ -13,7 +13,7 @@ import '@react-pdf-viewer/core/lib/styles/index.css';
 import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 // Worker
 import { Worker } from '@react-pdf-viewer/core'; // install this library
-import Resume from '../images/Resume.pdf'
+import Resume from '../images/Whatmore Resume.pdf'
 import Collapsible from 'react-collapsible'
 
 export default function Product() {

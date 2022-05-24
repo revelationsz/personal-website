@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from '../Footer'
 import './About.css'
 import SchoolInfo from '../SchoolContainer'
 

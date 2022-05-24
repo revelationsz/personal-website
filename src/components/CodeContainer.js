@@ -32,7 +32,7 @@ function CodeContainer() {
                 body4 = "Auto Buy Bot"
                 path4 = "https://github.com/revelationsz/BestBuyautoBuyBot"
                 body5 = "Personal Website"
-                path5 = "https://github.com/revelationsz/Personal-Webstie"
+                path5 = "https://github.com/revelationsz/personal-website"
                 />
            
         </div>
