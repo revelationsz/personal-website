@@ -1,7 +1,13 @@
 .whole_page{
+    background: url('/src/components/images/scotland\ photo.jpg') center center/cover
+    no-repeat;
+    height:  70vh;
+    width:  100%;
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    text-align: center;
-    margin: 50px
+    object-fit:  contain;
 }
 
 .resume{

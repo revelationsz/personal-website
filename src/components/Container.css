@@ -4,9 +4,9 @@
 }
 
 .body {
-    
+    margin: 50px;
     width: 400px;
-    height: 250px;
+    min-height: 250px;
     background-color: #ffffff;
     justify-content: center;
     margin-bottom: 4rem;

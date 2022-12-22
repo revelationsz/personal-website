@@ -25,39 +25,38 @@ function Navbar() {
 
   return (
     <>
-      <nav className='navbar'>
-        <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+      <div className='mynavbar'>
+        <div className='mynavbar-container'>
+          <Link to='/' className='mynavbar-logo' onClick={closeMobileMenu}>
             SWM
-            
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-          <li className='nav-item'>
+          <ul className={click ? 'mynav-menu active' : 'mynav-menu'}>
+          <li className='mynav-item'>
               <Link
                 to='/about'
-                className='nav-links'
+                className='mynav-links'
                 onClick={closeMobileMenu}
               >
                 About Me
               </Link>
             </li>
-            <li className='nav-item'>
+            <li className='mynav-item'>
               <Link
                 to='/coding'
-                className='nav-links'
+                className='mynav-links'
                 onClick={closeMobileMenu}
               >
                 Coding 
               </Link>
             </li>
            
-            <li className='nav-item'>
+            <li className='mynav-item'>
               <Link
                 to='/jobs'
-                className='nav-links'
+                className='mynav-links'
                 onClick={closeMobileMenu}
               >
                 Jobs 
@@ -66,7 +65,7 @@ function Navbar() {
           </ul>
          
         </div>
-      </nav>
+      </div>
     </>
   );
 }

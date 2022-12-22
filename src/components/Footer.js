@@ -8,9 +8,9 @@ function Footer() {
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
         
-            <h2>Contact Info</h2>
-            <h4 className='email'> Rhinoam@gmail.com</h4>
-            <h4 className='phone_number'> 941 387 5069</h4>
+            <h4>Contact Info</h4>
+            <h6 className='email'> Rhinoam@gmail.com</h6>
+            <h6 className='phone_number'> 941 387 5069</h6>
         </div>
        
       </div>

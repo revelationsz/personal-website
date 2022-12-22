@@ -9,17 +9,14 @@ function JobContainer() {
         <div className='Containers'>
                     <Container className='con1'
                     title = 'Current'
-                    body1 = 'Airbnb host' 
+                    body = {['Airbnb host' ]}
                     path1 = 'https://www.airbnb.com/rooms/35742690?guests=1&adults=1&s=67&unique_share_id=0f858308-fcf4-4bec-818d-5b128eaea60c'
 
                     />
-                    
-                    <div className='work'>
-
-                    </div>
-
+  
                     <Container className='Past'
                     title = 'Past'
+                    body = {["Lesson Developer At Stemania", "Software Development Engineer Intern At Amazon"]}
                     body1 = 'Teacher At Stemania'
                     path1 = 'https://www.stemania.biz/'
                     />          

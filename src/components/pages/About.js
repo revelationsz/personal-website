@@ -4,7 +4,6 @@ import SchoolInfo from '../SchoolContainer'
 
 function About() {
     return (
-        
         <div className='fullpage'>
             
             <div className='moreinfo'>

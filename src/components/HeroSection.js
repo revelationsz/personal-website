@@ -9,7 +9,7 @@ function HeroSection() {
             <p>
                 Welcome to Sarsen Whatmore Management
             </p>
-            <div className='btn'>
+            {/* <div className='btn'>
                 <Button 
                   className='btns'
                   buttonStyle='btn--outline'
@@ -17,7 +17,7 @@ function HeroSection() {
                   onClick = '/resume'>
                     Click to View Resume
                 </Button>
-            </div>
+            </div> */}
         </div>
      
     )

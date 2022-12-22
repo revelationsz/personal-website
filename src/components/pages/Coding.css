@@ -1,7 +1,13 @@
 .fullcode{
-    background-color: rgb(255, 255, 255);
+    background: url('/src/components/images/scotland\ photo.jpg') center center/cover
+    no-repeat;
+    height:  70vh;
+    width:  100%;
+    display:  flex;
+    flex-direction: column;
     justify-content: center;
-    margin: 51px;
+    align-items: center;
+    object-fit:  contain;
 }
 
 h1 {
