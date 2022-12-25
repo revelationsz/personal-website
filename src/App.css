@@ -10,3 +10,10 @@
    position: absolute;
    bottom: 0;
  }
+
+ .App{
+  background-attachment: fixed;
+  background-image: url('/src/components/images/scotland\ photo.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+ }

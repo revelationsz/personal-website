@@ -17,6 +17,10 @@ function Navbar() {
     }
   };
 
+  function scrollToStuff(){
+    window.scrollTo({top: 700, left:0})
+  }
+
   useEffect(() => {
     showButton();
   }, []);
@@ -43,14 +47,8 @@ function Navbar() {
                 About Me
               </Link>
             </li>
-            <li className='mynav-item'>
-              <Link
-                to='/coding'
-                className='mynav-links'
-                onClick={closeMobileMenu}
-              >
+            <li className='mynav-item mynav-links' id="coding" onClick={scrollToStuff}>
                 Coding 
-              </Link>
             </li>
            
             <li className='mynav-item'>

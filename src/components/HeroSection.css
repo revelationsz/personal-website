@@ -1,6 +1,5 @@
 .hero-container{
-    background: url('/src/components/images/scotland\ photo.jpg') center center/cover
-    no-repeat;
+
     height:  70vh;
     width:  100%;
     display:  flex;

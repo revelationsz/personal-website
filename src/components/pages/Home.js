@@ -1,8 +1,8 @@
 import '../../App.css'
 import HeroSection from '../HeroSection'
 import React from 'react'
-
-import Footer from '../Footer'
+import CodeContainer from '../CodeContainer'
+import './Home.css'
 
 
 
@@ -10,6 +10,9 @@ function Home () {
     return (
         <>
          <HeroSection/>
+         <div className="CodeContainer">
+            <CodeContainer/>
+         </div>
         </>
     )
 }
