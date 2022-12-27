@@ -1,5 +1,5 @@
 .body {
-    background-color: #ffffff;
+    background-color: #ebebeb4f;
     justify-content: center;
     margin-bottom: 4rem;
     margin-top: 2rem;
@@ -10,18 +10,16 @@
     border-width: 0.5px;
 }
 
-
 .Con_title {
     color: rgb(0, 0, 0);
     text-align: center;
     padding-top: 10px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
 
 .entery{
-    background-color: grey;
+    background-color: #ebebeb63;
     border-radius: 25px;
     height: fit-content;
     width: fit-content;
@@ -29,13 +27,16 @@
     margin: 3px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     white-space: nowrap;
+    border: 3px solid rgb(96, 104, 123);
+    color: black;
 }
 
 .entery:hover{
-    background-color: rgb(72, 72, 72);
+    background-color: rgba(72, 72, 72, 0.626);
     transition: all 0.1s ease-in-out;
+    color: white;
 }
 
-.h3{
+#title{
     font-weight: 300;
 }

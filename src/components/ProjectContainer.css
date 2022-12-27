@@ -1,0 +1,41 @@
+#body {
+    background-color: #ebebeb4f;
+    padding-bottom: 1rem ;
+    border-radius: 10px;
+    border-color: #6e6e6e;
+    border-style: solid;
+    border-width: 0.5px;    
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 800px;
+    transition: all 0.3s linear;
+}
+
+#projectTitle{
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+#projectInfo, #projectLanguages{
+    padding-left:20px
+}
+
+
+#body:hover{
+    width: 1000px;
+    background-color: rgba(247, 247, 247, 0.796);
+}
+
+#body:hover #projectTitle{
+    font-size: 3rem;
+}
+
+#body:hover #projectInfo{
+    font-size: 1.25rem;
+    margin-top: 30px;
+}
+
+#body:hover #projectLanguages{
+    font-size: 1.25rem;
+    margin-top: 40px;
+}

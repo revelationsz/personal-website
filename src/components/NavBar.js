@@ -2,9 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './NavBar.css';
 
+
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
+  const [currentPage, setCurrentPage] = useState("/")
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -17,12 +19,28 @@ function Navbar() {
     }
   };
 
-  function scrollToStuff(){
-    window.scrollTo({top: 700, left:0})
+  function scrollToCoding(){
+    if(window.location.pathname != '/'){
+      localStorage.setItem('location', 'coding')
+      window.location.href = "/"
+    } else {
+      window.scrollTo({top: 950, left:0})
+    }
+  
+  }
+
+  function scrollToLanding(){
+    if(window.location.pathname != '/'){
+      window.location.href = "/"
+    } else {
+      window.scrollTo({top:0, left:0})
+    }
+   
   }
 
   useEffect(() => {
     showButton();
+ 
   }, []);
 
   window.addEventListener('resize', showButton);
@@ -31,9 +49,9 @@ function Navbar() {
     <>
       <div className='mynavbar'>
         <div className='mynavbar-container'>
-          <Link to='/' className='mynavbar-logo' onClick={closeMobileMenu}>
+          <div className='mynavbar-logo' onClick={scrollToLanding}>
             SWM
-          </Link>
+          </div>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
@@ -47,7 +65,7 @@ function Navbar() {
                 About Me
               </Link>
             </li>
-            <li className='mynav-item mynav-links' id="coding" onClick={scrollToStuff}>
+            <li className='mynav-item mynav-links' id="coding" onClick={scrollToCoding}>
                 Coding 
             </li>
            
