@@ -1,7 +1,8 @@
 import React , {useState}from 'react'
 import Container from '../components/Container'
-import './SchoolContainer.css'
 import Project from '../components/ProjectContainer'
+import fitGenPhoto from './images/fitgen.JPG'
+import fkreviewPhoto from './images/fkpage.JPG'
 
 function CodeContainer() {
     const [bodyy, setBody] = useState(["Java", "JavaScript", "Python"])
@@ -30,6 +31,7 @@ function CodeContainer() {
                             and developed look to further enhance the user experience.
                             Hosted on google cloud app engine with a custom domain name."
                             languages={["Javascript, HTML, CSS"]}
+                            type="website"
                         />
 
                         <Project className="col-12"
@@ -38,6 +40,8 @@ function CodeContainer() {
                             algorithms with your wardrobe. Stores User profiles on Google Firebase for cross device profile.
                             Used Weather, Background removal, and Color finding API’s."
                             languages={["Java, XML, Kotlin"]}
+                            img={fitGenPhoto}
+                            type="app"
                         />
 
                         <Project className="col-12"
@@ -48,6 +52,8 @@ function CodeContainer() {
                             Mongodb database to store all information about the reviews.
                             "
                             languages={["Javascript, CSS, HTML"]}
+                            img={fkreviewPhoto}
+                            type="website"
                         />
 
                         <Project className="col-12"
@@ -58,6 +64,7 @@ function CodeContainer() {
                             Uses React JS for the front end with Node JS and express 
                             for the server and Mongodb for the database to store the user profiles."
                             languages={["Javascript, CSS, HTML"]}
+                            type="website"
                         />
 
                         <Project className="col-12"

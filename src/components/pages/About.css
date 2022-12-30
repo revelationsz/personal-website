@@ -1,8 +1,6 @@
 .fullpage{
     justify-content: center;
-    background: url('/src/components/images/scotland\ photo.jpg') center center/cover
-    no-repeat;
-    height:  70vh;
+    height:  92vh;
     width:  100%;
     display:  flex;
     flex-direction: column;
@@ -21,6 +19,13 @@ margin-bottom: 10px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.profilePic{
+    border-color: grey;
+    border-width: 1px;
+    border-style: solid;
+    width: 165px;
+    height: 250px;
+}
 
 .moreinfo {
     
@@ -28,9 +33,9 @@ margin-bottom: 10px;
     justify-content: center;
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 20px;
     width: 550px;
     display: flex;
-    text-align:center;
     margin-left: auto;
     margin-right: auto;
     background-color: #ffffff;

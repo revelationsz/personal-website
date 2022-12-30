@@ -13,7 +13,7 @@ function Home () {
     useEffect(() => {
         const x = localStorage.getItem('location') || null
         if(x === 'coding') {
-            window.scrollTo({top: 950, left:0})
+            window.scrollTo({top: 900, left:0})
             localStorage.removeItem('location')
         }
     },[])

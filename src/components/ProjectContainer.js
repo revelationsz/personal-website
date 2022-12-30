@@ -4,26 +4,18 @@ import $ from 'jquery';
 
 function ProjectContainer(props) {
 
-    function setUp(){
-        let arr = props.languages        
-        return (
-             <div> 
-                {arr?.map(e => <p className="col"> {e} </p>)}
-             </div>
-        )
-    }
 
     return (
         <>
-            <div id="body" className="body container">
-                <div className="row" id="info">
-                    <div className="col-3">
-                        <h1 id="title">img here</h1>
+            <div id="body" className="body container pt-3">
+                <div className="row d-flex justify-content-center" id="info">
+                    <div className="col-2 d-flex justify-content-center align-items-center" id={props.type}>
+                        <img src={props.img} id="projectIMG" />
                     </div>
                     <div className="col-9"> 
                         <h3 id="projectTitle">{props.title}</h3>
                         <p id="projectInfo">{props.info}</p>
-                        <div id="projectLanguages">{setUp()}</div>
+                        <div id="projectLanguages">Languages: {props.languages}</div>
                     </div>
                 </div>
             </div>

@@ -12,8 +12,21 @@
  }
 
  .App{
-  background-attachment: fixed;
+  background: no-repeat center/cover fixed;
+ }
+
+ .background1{
   background-image: url('/src/components/images/scotland\ photo.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
+ }
+
+ .background2{
+  background-image: url('/src/components/images/background2.JPG');
+ }
+
+ .background3{
+  background-image: url('/src/components/images/background3.JPG')
+ }
+
+ .background4{
+  background-image: url('/src/components/images/background4.JPG')
  }

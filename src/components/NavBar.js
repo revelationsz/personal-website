@@ -24,7 +24,7 @@ function Navbar() {
       localStorage.setItem('location', 'coding')
       window.location.href = "/"
     } else {
-      window.scrollTo({top: 950, left:0})
+      window.scrollTo({top: 900, left:0})
     }
   
   }
@@ -56,27 +56,27 @@ function Navbar() {
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
           <ul className={click ? 'mynav-menu active' : 'mynav-menu'}>
-          <li className='mynav-item'>
-              <Link
-                to='/about'
-                className='mynav-links'
-                onClick={closeMobileMenu}
-              >
-                About Me
-              </Link>
-            </li>
-            <li className='mynav-item mynav-links' id="coding" onClick={scrollToCoding}>
-                Coding 
-            </li>
-           
             <li className='mynav-item'>
-              <Link
-                to='/jobs'
-                className='mynav-links'
-                onClick={closeMobileMenu}
-              >
-                Jobs 
-              </Link>
+                <Link
+                  to='/about'
+                  className='mynav-links'
+                  onClick={closeMobileMenu}
+                >
+                  About Me
+                </Link>
+              </li>
+              <li className='mynav-item mynav-links' id="coding" onClick={scrollToCoding}>
+                  Experience 
+              </li>
+            
+              <li className='mynav-item'>
+                <Link
+                  to='/jobs'
+                  className='mynav-links'
+                  onClick={closeMobileMenu}
+                >
+                  Jobs 
+                </Link>
             </li>
           </ul>
          

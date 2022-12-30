@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import SchoolInfo from '../SchoolContainer'
+import profilePic from '../images/mePhoto.jpg'
 
 function About() {
     return (
@@ -9,19 +10,28 @@ function About() {
             <div className='moreinfo'>
             
                 <h1 className='head'> About me</h1>
-            
-                <p className='t'>
-                    Hello, I'm Sarsen Whatmore 
-                    and I am currently persuing a Bachelor  in Computer
-                     Science Boston University. I grew up in Sarsota Florida, 
-                     and attended the Out of Door Academy from 1st grade to 12th.
-                </p>
-                <p>
-                    Outside of school I swim competitively and currently swim for Boston 
-                    University 
-                    Mens Team. I also love doing side coding projects as using them 
-                    for automation of tasks has always been intriguing  to me.
-                </p>
+
+                <div className='container'>
+                    <div className='row'>
+                        
+                        <div className='col-4 p-0' >
+                            <img src={profilePic} className='profilePic'/>
+                        </div>
+
+                        <p className='t col-7 p-0 ms-4'>
+                            Hello, I'm Sarsen Whatmore 
+                            and I am currently pursuing a Bachelors in Computer
+                            Science Boston University. 
+                    
+                            I swim competitively for BU's division one swim and dive program. 
+                            Interned at Amazon Summer of 2022 as a Software Development
+                             Engineer Intern working on internal Alex tools. And was a 
+                             lesson developer for a local STEM summer camp called Stemania. 
+                        </p>
+                    </div>
+                </div>
+
+                
             </div>
 
             
