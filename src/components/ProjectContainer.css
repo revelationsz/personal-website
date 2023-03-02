@@ -18,10 +18,21 @@
     transition: all 0.3s linear;
 }
 
-#projectInfo, #projectLanguages, #projectTechnologies{
+#projectInfo, #projectLanguages, #projectTechnologies, #projectLink{
     padding-left:20px;
     transition: all 0.3s linear;
 }
+
+#overRide{
+    color: black;
+    text-decoration: none;
+}
+
+#overRide:hover{
+    color: black;
+    text-decoration: none;
+}
+
 
 #app{
     width: 136px;
@@ -42,6 +53,10 @@
     border: solid grey 1px;
 }
 
+#projectLink{
+    width: fit-content;
+}
+
 #body:hover{
     min-width: 100%;
 }   
@@ -57,12 +72,17 @@
 
 #body:hover #projectLanguages{
     font-size: 1.25rem;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 #body:hover #projectTechnologies{
     font-size: 1.25rem;
-    margin-top: 40px;
+    margin-top: 20px;
+}
+
+#body:hover #projectLink{
+    font-size: 1.25rem;
+    margin-top: 20px;
 }
 
 #body:hover #app{

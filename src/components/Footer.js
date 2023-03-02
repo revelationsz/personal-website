@@ -22,30 +22,22 @@ function Footer() {
             </Link>
           </div>
           <div className='social-icons'>      
-            <Link
-              class='social-icon-link instagram'
-              to='https://www.instagram.com/whatupmore/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i className='fab fa-instagram' />
-            </Link>
-            <Link
+            <a
               class='social-icon-link github'
-              to='https://github.com/revelationsz?tab=repositories'
+              href='https://github.com/revelationsz?tab=repositories'
               target='_blank'
               aria-label='Github'
             >
               <i className='fab fa-github' />
-            </Link>
-            <Link
+            </a>
+            <a
               class='social-icon-link twitter'
-              to='https://www.linkedin.com/in/sarsen-whatmore-20b48b202/'
+              href='https://www.linkedin.com/in/sarsen-whatmore-20b48b202/'
               target='_blank'
               aria-label='LinkedIn'
             >
               <i class='fab fa-linkedin' />
-            </Link>
+            </a>
           </div> 
          </div>
       </section>

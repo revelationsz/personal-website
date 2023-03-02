@@ -2,7 +2,6 @@ import React, {useEffect, useState} from 'react';
 import './ProjectContainer.css';
 
 function ProjectContainer(props) {
-    let img = null
     
     let setimg = () => {
          if(props.img != null) 
@@ -25,6 +24,7 @@ function ProjectContainer(props) {
                         <p id="projectInfo">{props.info}</p>
                         <div id="projectLanguages">Languages: {props.languages}</div>
                         <div id="projectTechnologies">Technologies: {props.technologies}</div> 
+                        {props.href != null ? <div id="projectLink"><a id="overRide" target="_blank" rel="noopener noreferrer" href={props.href}>Code</a></div> : <></>}
                     </div>
                 </div>
             </div>

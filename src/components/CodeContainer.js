@@ -3,7 +3,7 @@ import Container from '../components/Container'
 import Project from '../components/ProjectContainer'
 import fitGenPhoto from './images/fitgen.JPG'
 import fkreviewPhoto from './images/fkpage.JPG'
-import portfolio from './images/website.JPG'
+import portfolio from './images/website1.jpg'
 import './CodeContainer.css'
 
 function CodeContainer() {
@@ -29,6 +29,7 @@ function CodeContainer() {
                      </div>
 
                     <div className="row">
+                        <h2 className="text-center" id="header" >Experience</h2>
 
                         <Project  className="col-12"
                             title="Amazon Software development engineer internship"
@@ -39,6 +40,7 @@ function CodeContainer() {
                             technologies={["AWS, Mockito, Git"]}
                             type="website"
                         />
+                        <h2 className="text-center"  id="header">Projects</h2>
 
                         <Project  className="col-12"
                             title="Personal Portfolio Website"
@@ -49,6 +51,7 @@ function CodeContainer() {
                             technologies={["React JS, BootStrap, Node JS"]}
                             type="website"
                             img={portfolio}
+                            href="https://github.com/revelationsz/personal-website"
                         />
 
                         <Project className="col-12"
@@ -60,20 +63,21 @@ function CodeContainer() {
                             technologies={["Android 5.0, OpenWeather, Remove BG, Sight Engine, Firebase"]}
                             img={fitGenPhoto}
                             type="app"
+                            href="https://github.com/revelationsz/FitGenApp"
                         />
 
                         <Project className="col-12"
                             title="Fried Chicken Reviews"
                             info="Developed website to show my reviews of 
                             Fried Chicken on Boston while also using the Google Places API to show the 
-                            resturants closest location to you. Uses React JS frontend and a Node JS and Express Backend with 
-                            Mongodb database to store all information about the reviews.
+                            resturants closest location to you using MERN stack for all functionality.
                             "
                             languages={["Javascript, CSS, HTML"]}
                             technologies={["Node JS, Express, MongoDB, Google Places"]}
 
                             img={fkreviewPhoto}
                             type="website"
+                            href="https://github.com/revelationsz/FriedChickenReviewWebsite"
                         />
 
                         {/* <Project className="col-12"
@@ -86,7 +90,7 @@ function CodeContainer() {
                             languages={["Javascript, CSS, HTML"]}
                             technologies={["React JS, Node JS, Express, MongoDB, Spotify API, OpenWeather"]}
                             type="website"
-                        />
+                        />*/}
 
                         <Project className="col-12"
                             title="Best Buy Checkout Automation bot"
@@ -96,16 +100,17 @@ function CodeContainer() {
                             with mutiple instances for maximum efficency"
                             languages={["Python"]}
                             technologies={["Selenium"]}
+                            href="https://github.com/revelationsz/BestBuyautoBuyBot"
                         />
 
-                        <Project className="col-12"
+                        {/* <Project className="col-12"
                             title="Photo sharing application"
                             info="Web application developed with flask and SQL which lets you make a accunt with a custom login,
                             share photos, add friends, and view and rate other users photos."
                             languages={["Python, CSS, HTML, SQL"]}
                             technologies={["Flask, MySQL"]}
                             type="website"
-                        /> */}
+                        />  */}
 
                     </div>
                 </div>
