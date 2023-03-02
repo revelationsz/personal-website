@@ -3,8 +3,6 @@ import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Home from './components/pages/Home'
-import Jobs from './components/pages/Jobs'
-import Coding from './components/pages/Coding'
 import About from './components/pages/About'
 import Resume from './components/pages/Resume'
 import Footer from './components/Footer';
@@ -16,13 +14,12 @@ function App() {
         <Router>
           <NavBar className="nav"/>
             <Switch>
-            <Route path='/' exact  component = {Home}/>
-            <Route path='/about' component={About} />
-            <Route path='/resume' component={Resume} />
+              <Route path='/' exact  component = {Home}/>
+              <Route path='/about' component={About} />
+              <Route path='/resume' component={Resume} />
             </Switch>
           <Footer className="footer"/>
         </Router>
- 
     </div>
   );
 }

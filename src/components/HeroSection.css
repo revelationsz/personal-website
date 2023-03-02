@@ -1,3 +1,4 @@
+
 .hero-container{
 
     height:  70vh;
@@ -17,7 +18,8 @@
     font-size: 40px;
     
     margin-bottom: 100px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-weight: 400;
 
 }
 

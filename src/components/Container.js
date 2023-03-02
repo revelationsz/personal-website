@@ -8,7 +8,7 @@ function Container(props) {
         return (
             <div class="container"> 
                 <div class="row justify-content-center">
-                    {arr?.map(e => <p className="p-2 col-2 text-center entery"> {e} </p>)}
+                    {arr?.map(e => <p className="p-2 text-center" id="entery"> {e} </p>)}
                 </div>
             </div>
         )
@@ -18,9 +18,7 @@ function Container(props) {
         <>
             <div className='body m-3'>          
                 <h3 className='Con_title' id='title'>{props.title}</h3>
-                <div className='info'>
                     {setUp()}
-                </div>
             </div>
         </>
     )

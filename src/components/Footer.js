@@ -50,7 +50,7 @@ function Footer() {
          </div>
       </section>
       <div className= ' web-rights'>
-            <small className='website-rights'>SWM © 2019</small>
+            <small className='website-rights'>SWM © 2023</small>
           </div>
     </div>
   );

@@ -1,5 +1,5 @@
 .body {
-    background-color: #ebebeb4f;
+    background-color: #ffffff;
     justify-content: center;
     margin-bottom: 4rem;
     margin-top: 2rem;
@@ -8,34 +8,36 @@
     border-color: #6e6e6e;
     border-style: solid;
     border-width: 0.5px;
+    max-width: 300px;
+    box-shadow: 10px 5px 10px rgba(22, 19, 19, 0.216);
+
 }
 
 .Con_title {
     color: rgb(0, 0, 0);
     text-align: center;
     padding-top: 10px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
-.entery{
+#entery{
     background-color: #ebebeb63;
     border-radius: 25px;
     height: fit-content;
     width: fit-content;
     color: white;
     margin: 3px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     white-space: nowrap;
     border: 3px solid rgb(96, 104, 123);
     color: black;
+    font-size: 13px;
 }
 
-.entery:hover{
+/* #entery:hover{
     background-color: rgba(72, 72, 72, 0.626);
     transition: all 0.1s ease-in-out;
     color: white;
-}
+} */
 
 #title{
     font-weight: 300;

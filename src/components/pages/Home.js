@@ -2,6 +2,7 @@ import '../../App.css'
 import HeroSection from '../HeroSection'
 import React , {useEffect} from 'react'
 import CodeContainer from '../CodeContainer'
+import About from './About'
 import './Home.css'
 
 
@@ -22,9 +23,11 @@ function Home () {
     return (
         <>
          <HeroSection/>
+         {/* <About/> */}
          <div className="CodeContainer">
             <CodeContainer/>
          </div>
+            
         </>
     )
 }

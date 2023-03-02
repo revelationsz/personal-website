@@ -68,16 +68,14 @@ function Navbar() {
               <li className='mynav-item mynav-links' id="coding" onClick={scrollToCoding}>
                   Experience 
               </li>
-            
-              <li className='mynav-item'>
-                <Link
-                  to='/jobs'
-                  className='mynav-links'
-                  onClick={closeMobileMenu}
-                >
-                  Jobs 
-                </Link>
-            </li>
+              <li className='mynav-item' id="resume">
+                  <Link
+                    to='/resume'
+                    className='mynav-links'
+                  >
+                    Resume
+                  </Link>
+              </li>
           </ul>
          
         </div>

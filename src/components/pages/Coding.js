@@ -9,11 +9,11 @@ function Coding() {
     return (
         
         <div className='fullcode'>
-        <h1> Coding</h1>
+            <h1> Coding</h1>
         
-        <div className='test'>
-           <CodeContainer/>
-        </div>
+            <div className='test'>
+                <CodeContainer/>
+            </div>
      </div>
     )
 }

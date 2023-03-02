@@ -1,6 +1,5 @@
 import React,{useState}from 'react'
 import './Jobs.css'
-import Footer from '../Footer'
 
 // Import the main component
 import { Viewer } from '@react-pdf-viewer/core'; // install this library
@@ -11,7 +10,7 @@ import '@react-pdf-viewer/core/lib/styles/index.css';
 import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 // Worker
 import { Worker } from '@react-pdf-viewer/core'; // install this library
-import resume from '../images/Whatmore Resume.pdf'
+import resume from '../images/resume3.pdf'
 
 
 function Resume() {

@@ -14,17 +14,21 @@ margin-bottom: 10px;
 
 }
 
+.head{
+    margin-top: 20px;
+}
+
 .h1 {
-    margin-bottom: auto;
+    /* margin-bottom: auto; */
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .profilePic{
-    border-color: grey;
-    border-width: 1px;
-    border-style: solid;
     width: 165px;
     height: 250px;
+    box-shadow: 9px 9px 7px rgb(0 0 0 / 23%);
+    border-radius: 5px;
+    margin-top: 5px;
 }
 
 .moreinfo {
@@ -34,14 +38,14 @@ margin-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 20px;
-    width: 550px;
+    width: 600px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
     background-color: #ffffff;
     border-style: none;
     border-radius: 10px;
-    box-shadow: 0 6px 20px #9f38ff2b;
+    box-shadow: 0 6px 20px rgba(20, 17, 17, 0.152);
     flex-direction: column;
     
 }
@@ -51,7 +55,9 @@ margin-bottom: 10px;
     color: rgb(68, 68, 68);
 }
 
-
+.myInfo{
+    margin: 20px;
+}
 
 
 

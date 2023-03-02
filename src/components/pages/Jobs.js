@@ -1,6 +1,5 @@
 import React,{useState}from 'react'
 import '../../App.css'
-import Footer from '../Footer'
 import './Jobs.css'
 import JobContainer from '../JobContainer'
 
